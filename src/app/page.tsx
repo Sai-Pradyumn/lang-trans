@@ -98,7 +98,7 @@ const Home: React.FC = () => {
             </h1>
 
             <p className="mt-3 text-neutral-400">
-              GlobueTongue: " Discover the World with Word! ".
+              GlobueTongue: &quot; Discover the World with Word! &quot;.
             </p>
 
             <div className="mt-7 sm:mt-12 mx-auto max-w-3xl relative">
