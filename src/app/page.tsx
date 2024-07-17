@@ -88,6 +88,12 @@ const Home: React.FC = () => {
 
   return (
     <div className="w-full bg-black bg-dot-white/[0.2] relative flex items-center justify-center">
+
+      <div className="absolute z-10 top-10 right-10 w-[250px] px-[30px] py-[20px] bg-red-800 text-[#fff] font-bold border-2 border-slate-100 rounded-lg animate-jerk">
+      {/* <div className="absolute z-10 top-10 right-10 w-[250px] px-[30px] py-[20px] bg-red-800 text-[#fff] font-bold rounded-lg animate-float"> */}
+        tokens completed
+      </div>
+
       <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
 
       <div className="relative overflow-hidden h-screen">

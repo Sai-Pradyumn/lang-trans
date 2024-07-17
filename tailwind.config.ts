@@ -21,6 +21,25 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      keyframes: {
+        jerk: {
+          '0%, 100%': { transform: 'translateX(0)' },
+          '50%': { transform: 'translateX(-5px)' },
+          // '50%': { transform: 'translateX(5px)' },
+        },
+      },
+      animation: {
+        jerk: 'jerk .5s ease-in-out infinite',
+      },
+      // keyframes: {
+      //   float: {
+      //     '0%, 100%': { transform: 'translateY(0)' },
+      //     '50%': { transform: 'translateY(-10px)' },
+      //   },
+      // },
+      // animation: {
+      //   float: 'float 2s ease-in-out infinite',
+      // },
     },
   },
   plugins: [
